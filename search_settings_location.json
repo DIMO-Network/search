@@ -1,0 +1,27 @@
+PUT https://search.dimo.zone/api/as/v1/engines/locations-{ENV}}/search_settings
+{
+    "search_fields": {
+        "name_or_zip": {
+            "weight": 1
+        },
+        "id": {
+            "weight": 1
+        }
+    },
+    "result_fields": {
+        "latitude": {
+            "raw": {}
+        },
+        "name_or_zip": {
+            "raw": {}
+        },
+        "id": {
+            "raw": {}
+        },
+        "longitude": {
+            "raw": {}
+        }
+    },
+    "boosts": {},
+    "precision": 2
+}

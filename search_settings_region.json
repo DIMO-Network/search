@@ -1,0 +1,49 @@
+PUT https://search.dimo.zone/api/as/v1/engines/regions-{ENV}}/search_settings
+{
+    "search_fields": {
+      "name": {
+        "weight": 1
+      },
+      "id": {
+        "weight": 1
+      }
+    },
+    "result_fields": {
+      "alpha_3": {
+        "raw": {}
+      },
+      "alpha_2": {
+        "raw": {}
+      },
+      "sub_region_code": {
+        "raw": {}
+      },
+      "intermediate_region_code": {
+        "raw": {}
+      },
+      "name": {
+        "raw": {}
+      },
+      "iso_3166_2": {
+        "raw": {}
+      },
+      "intermediate_region": {
+        "raw": {}
+      },
+      "id": {
+        "raw": {}
+      },
+      "region": {
+        "raw": {}
+      },
+      "sub_region": {
+        "raw": {}
+      },
+      "region_code": {
+        "raw": {}
+      }
+    },
+    "boosts": {},
+    "precision": 2
+  }
+  
